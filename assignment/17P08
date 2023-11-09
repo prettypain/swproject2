@@ -16,7 +16,7 @@
 
 #define EMA_ALPHA  0.5      // for EMA Filter
 
-#define LOOP_INTERVAL 100   // Loop Interval (unit: msec)
+#define LOOP_INTERVAL 20   // Loop Interval (unit: msec)
 
 Servo myservo;
 unsigned long last_loop_time;   // unit: msec
